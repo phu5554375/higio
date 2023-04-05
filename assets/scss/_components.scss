@@ -1,0 +1,325 @@
+// COMPONENTS
+
+// ---------
+// Title
+.ht-title{
+  margin: 0 0 16px;
+  line-height: 1.2;
+  font-size: 24px;
+  font-weight: 500;
+  &.has-bdb{
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: $border;
+  }
+}
+
+// ---------
+// Breadcrumbs
+ul.ht-breadcrumb{
+  // margin: 8px 0;
+  padding: 0;
+  font-size: 0;
+  li{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    &:after{
+      content: "/";
+      display: inline-block;
+      vertical-align: top;
+      // line-height: 16px;
+      padding: 0 8px;
+      color: $grey600;
+    }
+    &:last-child:after{
+      display: none;
+    }
+    a{
+      padding: 2px 0;      
+      font-size: 14px;
+      font-weight: 500;
+      color: $grey900;
+      &:hover{
+        color: $blue500;
+      }
+    }
+    &.active{
+      color: $blue500;
+      a,span{
+        color: $blue500;
+      }
+    }
+  }
+  &.support-page-breadcrumb{
+    margin: 0 0 16px;
+    padding: 11px 20px 11px 20px;
+    @media (min-width: $screen-sm-min){
+      padding: 14px 28px 14px 28px;
+    }
+    li{
+      line-height: 20px;
+      font-size: 14px;
+      &:after{
+        line-height: 20px;
+      }
+      a{
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+// ---------
+// Lists
+ul.ht-list{
+  display: block;
+  margin: 0;
+  padding: 0;
+  &.ht-list-icon{
+    & > li{
+      position: relative;
+      padding-left: 24px;
+      & > i{
+        display: block;
+        position: absolute;
+        top: 0; left: 0;
+        line-height: 21px;
+        width: 18px;
+        text-align: center;
+      }
+    }
+    &.fz-12{
+       & > li{
+        padding-left: 20px;
+        & > i{
+          line-height: 16px;
+          width: 16px;
+        }
+      }
+    }
+    &.icon-lg{
+      & > li{
+        padding-left: 28px;
+        & > i{
+          width: 18px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+// ---------
+// pagination
+ul.ht-pagination{
+  padding: 16px 0;
+  list-style: none;
+  font-size: 0;
+  cursor: default;
+  li{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 2px;
+    a,span{
+      display: block;
+      height: 36px;
+      padding: 7px 12px;
+      line-height: 20px;
+      font-size: 16px;
+      text-align: center;
+      white-space: nowrap;
+      border: 1px solid transparent;
+    }
+    span{
+      padding: 7px 4px;
+      color: material-color('grey','600');
+    }
+    i{
+      display: inline-block;
+      vertical-align: top;
+      line-height: 20px;
+    }
+    a{
+      min-width: 36px;
+      color: material-color('grey','800');
+      background-color: material-color('grey','50');
+      border-color: #ccc;
+      border-radius: 2px;
+      &:hover{
+        background-color: material-color('grey','100');
+        border-color: $grey500;
+      }
+      &:active{
+        box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+      }
+    }
+    &.active{
+      a,span{
+        color: #fff;
+        background-color: $green500;
+        border-color: transparent;
+      }
+    }
+    &.disabled{
+      opacity: .6;
+    }
+  }
+}
+
+// ---------
+// modal
+.modal-dialog{
+  margin: 24px 16px;
+  @media (min-width: $screen-sm-min){
+    margin: 48px auto;
+  }
+  .modal-content{
+  	.modal-header{
+  		padding: 16px 48px 16px 20px;
+      .modal-title{
+        margin: 0;
+        font-size: 24px;
+      }
+  	}
+  	.modal-body{
+  		padding: 20px 20px;
+      p{
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+  	}
+  	.modal-footer{
+  		padding: 16px 20px;
+  	}
+  }
+  .ht-close-modal{
+    display: block;
+    position: absolute;
+    top: 0; right: 0;
+    border-radius: 0;
+  }
+}
+@media (min-width: $screen-sm-min){
+  .modal-sm {
+    width: 420px;
+  } 
+}
+// ---------
+// Menubar
+.ht-menubar{
+  ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li{
+      a{
+        display: block;
+      }
+    }
+  }
+}
+@media (min-width: $screen-md-min){
+  .ht-menubar-horizontal{
+    ul{
+      li{
+        position: relative;
+        a{
+          display: block;
+          white-space: nowrap;
+        }
+      }
+    }
+    ul.ht-menu-list{
+      font-size: 0;
+      & > li{
+        display: inline-block;
+        vertical-align: top;
+        font-size: 14px;
+        & > a{
+          background-color: transparent;
+        }
+        // level 2+
+        ul{
+          position: absolute;
+          z-index: 102;
+          li{
+            a{
+              // white-space: nowrap;
+            }
+          }
+        }
+        // level 2
+        & > ul{
+          top: 100%; left: 0;
+          min-width: 100%;
+          // level 2+
+          ul{
+            top: 0; left: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+// ---------
+// Meta Inline
+.ht-meta-inline{
+  font-size: 0;
+  & > span{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    &:after{
+      content: "\2022";
+      display: inline-block;
+      vertical-align: top;
+      padding: 0 6px;
+      line-height: 16px;
+      font-size: 10px;
+    }
+    &:last-child{
+      &:after{
+        display: none;
+      }
+    }
+  }
+}
+
+// select2
+[class^='select2']{
+  &:focus, &:active, &:visited{
+    outline: none !important;
+    box-shadow: 0 0 0 !important;
+  }
+}
+
+
+.createSystemNotification-modal-dialog{
+  max-width: 400px;
+  margin: 48px 12px;
+  @media (min-width: $screen-sm-min){
+    width: 400px;
+    position: absolute;
+    top: 50%; left: 50%;
+    margin: -50px auto auto -200px;
+  }
+  .modal-header {
+    padding: 28px 36px;
+    border-bottom: 0;
+  }
+}
+.createSystemNotification-modal-content{
+  text-align: center;
+  border-radius: 46px;
+  .modal-header {
+    padding: 20px 36px !important;
+    border-bottom: 0;
+  }
+}
+
+
+
