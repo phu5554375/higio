@@ -1,0 +1,89 @@
+{
+  "name": "cas-services",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/charts": "^1.2.11",
+    "@ant-design/icons": "^4.7.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@umijs/hooks": "^1.9.3",
+    "antd": "^5.1.1",
+    "apisauce": "^1.0.3",
+    "axios": "^0.21.1",
+    "classnames": "^2.2.6",
+    "crypto-js": "^3.1.9-1",
+    "devextreme": "21.1.5",
+    "devextreme-react": "21.1.5",
+    "i18next": "^22.4.9",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "icomoon-react": "^1.0.0",
+    "js-base64": "^3.7.2",
+    "js-cookie": "^3.0.1",
+    "js-file-download": "^0.4.12",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.1",
+    "randomstring": "^1.2.2",
+    "react": "^16.13.1",
+    "react-back-to-top-button": "^0.0.14",
+    "react-base64-downloader": "^2.1.7",
+    "react-bootstrap-time-picker": "^2.0.1",
+    "react-cookies": "^0.1.1",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-dom": "^16.13.1",
+    "react-file-download": "^0.3.5",
+    "react-hook-form": "^7.27.1",
+    "react-i18next": "^12.1.5",
+    "react-idle-timer": "^4.6.4",
+    "react-loading-overlay": "^1.0.1",
+    "react-new-window": "^0.2.1",
+    "react-redux": "^8.0.5",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^5.2.1",
+    "react-scripts": "3.4.1",
+    "react-select": "^5.2.0",
+    "react-select-async-paginate": "^0.6.0",
+    "react-slick": "^0.29.0",
+    "react-sticky": "^6.0.3",
+    "redux": "^4.2.0",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.2.2",
+    "redux-thunk": "^2.4.0",
+    "slick-carousel": "^1.8.1",
+    "ts-node": "10.9.1",
+    "universal-cookie": "^4.0.4",
+    "use-data-service": "^1.0.12",
+    "use-places-autocomplete": "^1.4.1",
+    "use-react-router-breadcrumbs": "^2.0.2",
+    "validator": "^13.1.1",
+    "yargs-parser": "^21.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.2",
+    "download-image": "^1.0.1",
+    "sass": "^1.57.1",
+    "xlsx": "0.16.3"
+  }
+}
