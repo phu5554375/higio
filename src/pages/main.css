@@ -4,7 +4,7 @@
 
 /* line 8, ../scss/bs/material-colors/_sass-material-colors-classes.scss */
 .bg-color-red-50 { background-color: #ffebee !important; }
-
+.hotfz{font-size: 25px !important;}
 /* line 5, ../scss/bs/material-colors/_sass-material-colors-classes.scss */
 .color-red-100 { color: #ffcdd2 !important; }
 
@@ -6613,7 +6613,7 @@
 
 /* line 9, ../scss/bs/_scaffolding.scss */
 body { font-family: 'Roboto', sans-serif !important;
-  font-size: 16px; font-weight: 500; color: #212121; background-color: #000; }
+  font-size: 16px; font-weight: 500; color: #212121; background-color: #0a0a0a; }
 
 /* line 18, ../scss/bs/_scaffolding.scss */
 .disabled { pointer-events: none; opacity: .8; }
@@ -7122,7 +7122,8 @@ ul.ht-list.ht-list-icon.icon-lg > li > i { width: 18px; font-size: 18px; }
 @media (min-width: 768px) { /* line 91, ../scss/_footer.scss */
   .site-footer .site-footer_single-nav { padding: 0px 0; text-align: left; } }
 /* line 99, ../scss/_footer.scss */
-.site-footer .site-footer_single-nav .nav-title { margin: 0; line-height: 18px; font-size: 12px; font-weight: 500; color: #0A8E8C; }
+.site-footer .site-footer_single-nav .nav-title { margin: 0; line-height: 18px; font-size: 12px; font-weight: 500; color: #0A8E8C; text-align: center; }
+
 /* line 106, ../scss/_footer.scss */
 .site-footer .site-footer_single-nav ul { list-style: none; padding: 0; margin: 0; }
 /* line 111, ../scss/_footer.scss */
@@ -7510,7 +7511,7 @@ color: #fff; }
   .isg-system-features .list-system-features .single-system-feature.reversed .system__detail-wrap:after { content: "\f3d2"; padding: 0 1px 0 0; right: auto; left: 12px; } }
 
 /* line 630, ../scss/_front.scss */
-.isg-front-preview { position: relative; background-color: #000; overflow: hidden; }
+.isg-front-preview { position: relative; overflow: hidden; }
 @media (min-width: 768px) { /* line 630, ../scss/_front.scss */
   .isg-front-preview { height: 380px; } }
 @media (min-width: 992px) { /* line 630, ../scss/_front.scss */
@@ -7592,8 +7593,8 @@ color: #fff; }
 @media (min-width: 768px) { /* line 761, ../scss/_front.scss */
   .isg-front-preview .img-mockup {
     position: absolute;
-    width: 33%;
-    top: 94px;
+    width: 32%;
+    top: 150px;
     left: 64%;
     text-align: left;
    }
@@ -7734,6 +7735,8 @@ color: #fff; }
 .isg-front-khachhang .ui-icon-block .ui-icon-block__title img{
   border-radius: 50%;
   border: 2px solid #fff;
+  text-align: center;
+  margin: 0 auto;
   
 }
 .isg-front-khachhang  .ht-title{

@@ -31,12 +31,8 @@ import topimg27 from "../assets/img/903554_121666414663405_1017832377_o 1.png";
 import topimg28 from "../assets/img/asas.png";
 
 import topimg29 from "../assets/img/logo.png";
-import topimg30 from "../assets/img/1 903 1.png";
-import topimg31 from "../assets/img/partner-logo-vmware 3 1.png";
-import topimg32 from "../assets/img/ProPartner_Default_Partner_Logo 2 1.png";
-import topimg33 from "../assets/img/Screenshot 2023-01-09 091403 2 1.png";
+
 import topimg34 from "../assets/img/ico-back-top.png";
-import topimg35 from "../assets/img/pci 3 1.png";
 
 import topimg36 from "../assets/img/manhcuong.png";
 import topimg37 from "../assets/img/infoplus.png";
@@ -91,6 +87,14 @@ const settings = {
   speed: 500,
   slidesToShow: 6,
   slidesToScroll: 6
+};
+
+const settings2 = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1
 };
 
 const Common = (props) => {
@@ -464,6 +468,12 @@ const Common = (props) => {
             {t("title27")}</div>	
             <p>{t("title28")}</p>			
           </div>
+
+          <div className="container pos-rel">
+          <div className="row">
+          <Slider {...settings2}>
+         
+          <div>
           <div className="col-12 col-md-12">
             <div className="ui-icon-block">
               <div className="ui-icon-block__sub">
@@ -476,6 +486,8 @@ const Common = (props) => {
               </div>
             </div>
           </div>
+          </div>
+          <div>
           <div className="col-12 col-md-12">
             <div className="ui-icon-block">
               <div className="ui-icon-block__sub">
@@ -488,6 +500,8 @@ const Common = (props) => {
               </div>
             </div>
           </div>
+          </div>
+          <div>
           <div className="col-12 col-md-12">
             <div className="ui-icon-block">
               <div className="ui-icon-block__sub">
@@ -500,6 +514,8 @@ const Common = (props) => {
               </div>
             </div>
           </div>
+          </div>
+          <div>
           <div className="col-12 col-md-12">
             <div className="ui-icon-block">
               <div className="ui-icon-block__sub">
@@ -512,6 +528,12 @@ const Common = (props) => {
               </div>
             </div>
           </div>
+          </div>
+          
+         
+        </Slider>
+          </div>
+        </div>
         </div>
       </div>
     </div>
@@ -524,7 +546,7 @@ const Common = (props) => {
               <div className="site-footer_single-nav">
                 <img src={topimg29} />
                 <ul className="nav-list">
-                  <li><a href="#">1900 6973</a></li>
+                  
                   <li><a href="https://fti.fpt.vn/">FPT Telecom</a></li>
                   <li><a href="https://vn.iij.com/en ">IIJ GS Vietnam</a></li>
                 </ul>
@@ -532,13 +554,9 @@ const Common = (props) => {
             </div>
             <div className="col-xs-12 col-sm-4">
               <div className="site-footer_single-nav">
-                <ul className="nav-list">
-                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={topimg30} alt="" width={45} height={30} /></a></li>
-                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={topimg31} alt="" width={45} height={30} /></a></li>
-                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={topimg32} alt="" width={45} height={30} /></a></li>
-                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={topimg33} alt="" width={45} height={30} /></a></li>
-                  <li />
-                  <li className="legal-icon-item mt-8"><a href="#" target="_blank"><img src={topimg35} alt="" width={45} height={30} /></a></li>
+              <h4 class="nav-title text-uppercase">Contact</h4>
+              <ul className="nav-list">
+              <li><a className="hotfz" href="#">1900 6973</a></li>
                 </ul>
               </div>
             </div>
