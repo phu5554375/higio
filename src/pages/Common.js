@@ -17,8 +17,7 @@ import topimg16 from "../assets/img/eos-icons_cloud-computing-outlined 1.png";
 import topimg17 from "../assets/img/uil_technology 1.png";
 import topimg18 from "../assets/img/uil_technology 1.png";
 
-
-import topimg19 from "../assets/img/01.png";
+ import topimg19 from "../assets/img/01.png";
 import topimg20 from "../assets/img/02.png";
 import topimg21 from "../assets/img/03.png";
 import topimg22 from "../assets/img/04.png";
@@ -38,6 +37,9 @@ import topimg32 from "../assets/img/ProPartner_Default_Partner_Logo 2 1.png";
 import topimg33 from "../assets/img/Screenshot 2023-01-09 091403 2 1.png";
 import topimg34 from "../assets/img/ico-back-top.png";
 import topimg35 from "../assets/img/pci 3 1.png";
+
+import topimg36 from "../assets/img/manhcuong.png";
+import topimg37 from "../assets/img/infoplus.png";
 
 
 import logo1 from "../assets/img/logo/4-2021-05783.jpg";
@@ -65,6 +67,22 @@ import logo22 from "../assets/img/logo/Mailinh.jpg";
 import logo23 from "../assets/img/logo/Panasonic-logo.png";
 import logo24 from "../assets/img/logo/Standard-Chartered-logo.png";
 import logo25 from "../assets/img/logo/wordlogo.png";
+
+
+import logo26 from "../assets/img/logo-footer/2-rate3-rate3facilities.png";
+import logo27 from "../assets/img/logo-footer/4-iso27017-2015-06.png";
+import logo28 from "../assets/img/logo-footer/5-iso-9001-2015.png";
+import logo29 from "../assets/img/logo-footer/Copy of pci-dss-1.png";
+import logo30 from "../assets/img/logo-footer/logo-chung-chi-idc-27001.png";
+import logo31 from "../assets/img/logo-footer/SOC_NonCPA.png";
+
+import logo32 from "../assets/img/logo-footer/AWS-Certified-Solutions-Architect-Professional_badge.69d82ff1b2861e1089539ebba906c70b011b928a.png";
+import logo33 from "../assets/img/logo-footer/CCSP-logo-2lines.png";
+import logo34 from "../assets/img/logo-footer/download (2).png";
+import logo35 from "../assets/img/logo-footer/New-Cisco-CCNA.jpg";
+import { Background } from "devextreme-react/range-selector";
+
+
 
 
 const settings = {
@@ -153,7 +171,7 @@ const Common = (props) => {
           <div className="row justify-content-center">
             <div className="col-6 col-md-4">
               <div className="ui-icon-block">
-                <h4 className="ui-icon-block__title">20+</h4>
+                <h4 className="ui-icon-block__title">10+</h4>
                 <p className="ui-icon-block__sub">{t("title3")}</p>
                 
               </div>
@@ -166,7 +184,7 @@ const Common = (props) => {
             </div>
             <div className="col-6 col-md-4">
               <div className="ui-icon-block">
-                <h4 className="ui-icon-block__title">04</h4>
+                <h4 className="ui-icon-block__title">02</h4>
                 <p className="ui-icon-block__sub">{t("title5")}</p>
               </div>
             </div>
@@ -197,6 +215,7 @@ const Common = (props) => {
           </div>
         </div>
       </div>
+   
       <div className="isg-front-preview" id="aboutus">
         <div className="container pos-rel">
           <div className="row">
@@ -214,6 +233,7 @@ const Common = (props) => {
           </div>
         </div>
       </div>
+      
       <div id="frontPage__SystemList" className="isg-system-features isg-front-section">
         <div className="container">
           <div className="section-header section-header--front-page text-center">
@@ -264,6 +284,7 @@ const Common = (props) => {
           </div>
         </div>
       </div>
+      
       <div className="isg-register-company">
         <div className="container">
           <div className="col-xs-12 col-md-10 col-md-offset-1">
@@ -356,14 +377,15 @@ const Common = (props) => {
         <div className="container pos-rel">
           <div className="row">
           <Slider {...settings}>
-          <div>
-            <h3><img src={logo1} /></h3>
-          </div>
+         
           <div>
             <h3><img src={logo2} /></h3>
           </div>
           <div>
             <h3><img src={logo3} /></h3>
+          </div>
+          <div>
+            <h3><img src={logo11} /></h3>
           </div>
           <div>
             <h3><img src={logo4} /></h3>
@@ -387,7 +409,7 @@ const Common = (props) => {
             <h3><img src={logo10} /></h3>
           </div>
           <div>
-            <h3><img src={logo11} /></h3>
+            <h3><img src={logo1} /></h3>
           </div>
           <div>
             <h3><img src={logo12} /></h3>
@@ -466,6 +488,30 @@ const Common = (props) => {
               </div>
             </div>
           </div>
+          <div className="col-12 col-md-12">
+            <div className="ui-icon-block">
+              <div className="ui-icon-block__sub">
+                <p>{t("title35")}</p>
+              </div>
+              <div className="ui-icon-block__title">
+                <img src={topimg36} />
+                <h5>  {t("title36")}</h5>
+                <p> {t("title37")}</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-12">
+            <div className="ui-icon-block">
+              <div className="ui-icon-block__sub">
+                <p>{t("title38")}</p>
+              </div>
+              <div className="ui-icon-block__title">
+                <img src={topimg37} />
+                <h5>  {t("title39")}</h5>
+                <p> {t("title40")}</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -474,41 +520,47 @@ const Common = (props) => {
       <div>
         <div className="container has-max-width-on-xs-screen py-28">
           <div className="row">
-            <div className="col-xs-12 col-sm-3">
+            <div className="col-xs-12 col-sm-2">
               <div className="site-footer_single-nav">
                 <img src={topimg29} />
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-3">
-              <div className="site-footer_single-nav">
-                <h4 className="nav-title text-uppercase">About Us</h4>
-                <ul className="nav-list">
-                  <li><a href="#">FPT Telecom</a></li>
-                  <li><a href="#">IIJ GS Vietnam</a></li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-3">
-              <div className="site-footer_single-nav">
-                <h4 className="nav-title text-uppercase">Contact</h4>
                 <ul className="nav-list">
                   <li><a href="#">1900 6973</a></li>
+                  <li><a href="https://fti.fpt.vn/">FPT Telecom</a></li>
+                  <li><a href="https://vn.iij.com/en ">IIJ GS Vietnam</a></li>
                 </ul>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-3">
+            <div className="col-xs-12 col-sm-4">
               <div className="site-footer_single-nav">
-                <h4 className="nav-title text-uppercase">Kết nối với chúng tôi</h4>
                 <ul className="nav-list">
-                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={topimg30} alt="" width={24} height={24} /></a></li>
-                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={topimg31} alt="" width={40} height={24} /></a></li>
-                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={topimg32} alt="" width="̀50" height={24} /></a></li>
-                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={topimg33} alt="" width={40} height={24} /></a></li>
+                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={topimg30} alt="" width={45} height={30} /></a></li>
+                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={topimg31} alt="" width={45} height={30} /></a></li>
+                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={topimg32} alt="" width={45} height={30} /></a></li>
+                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={topimg33} alt="" width={45} height={30} /></a></li>
                   <li />
-                  <li className="legal-icon-item mt-8"><a href="#" target="_blank"><img src={topimg35} alt="" width="auto" height={40} /></a></li>
+                  <li className="legal-icon-item mt-8"><a href="#" target="_blank"><img src={topimg35} alt="" width={45} height={30} /></a></li>
                 </ul>
               </div>
             </div>
+            <div className="col-xs-12 col-sm-6">
+            <div className="site-footer_single-nav">
+                <ul className="nav-list">
+                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={logo26} alt="" width={55} height={50} /></a></li>
+                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={logo27} alt="" width={55} height={50} /></a></li>
+                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={logo28} alt="" width={55} height={50} /></a></li>
+                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={logo29} alt="" width={55} height={50} /></a></li>
+                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={logo30} alt="" width={55} height={50} /></a></li>
+                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={logo31} alt="" width={55} height={50} /></a></li>
+                  </ul>
+                  <ul className="nav-list">
+                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={logo32} alt="" width={55} height={50} /></a></li>
+                  <li className="d-iblock mr-8"><a href="#" target="_blank" className="ht-page-navbar"><img src={logo33} alt="" width={100} height={50} /></a></li>
+                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={logo34} alt="" width={55} height={50} /></a></li>
+                  <li className="d-iblock mr-8"><a href="#" target="_blank"><img src={logo35} alt="" width={55} height={50} /></a></li>
+                </ul>
+              </div>
+            </div>
+           
           </div>
         </div>
       </div>

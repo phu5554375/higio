@@ -22,15 +22,14 @@ i18n
           menu4: "Contact",
           brandname:"IIJ Global Solutions Vietnam",
           brandname2:"FPT Telecom",
-         
-
+        
           tophead: "Reach a new milestone when comprehensively upgrading the cloud computing infrastructure to enhance business productivity and flexibility with turn-key cloud technology ",
           titleone: "which is integrated",
 
           toptitle:"The global standard qualified cloud platform with local touch for all enterprises in Vietnam",
           title2: "Japanese Technical Foundation and FPT Data Centers",
 
-          title3: "years experience of cloud service R&D globally",
+          title3: "years experience of cloud service R&D globally over 20,000+ servers, 100,000+ VMs, 500+ PB storage, and 9 countries",
           title4: "Support by Locally made Experts",
           title5: "Data Centers in Hanoi & HCM meets ISO standards for design, construction and operation according to Vietnam & World Standards",
           title6: "businesses in various fields( Finance, E-commerce, Retail, etc.)",
@@ -79,6 +78,15 @@ i18n
           title34: "General Director, Family Mart Vietnam",
 
 
+          title35: "HI GIO Cloud not only provides a reliable system, but also ensures 24/7 technical support for the entire IT infrastructure of TOKYOLIFE such as the sales and payment core system for the entire chain (App -DB). ); e-commerce web system; financial accounting system. With simple administration through Webportal, using HI GIO Cloud becomes easy and convenient. Notably, HI GIO is a big brand known for its high reputation and reliability in the information technology industry. With the guarantee by FPT, a leading technology company, users can be completely assured in terms of information security and service reliability.",
+          title36: "Mr. Nguyễn Mạnh Cường ",
+          title37: "CTO, ForLife Vietnam",
+
+          title38: "Ensuring cost optimization, more flexible system deployment time, avoiding the risk of data loss, ensuring continuity without downtime when using HI GIO Cloud infrastructure on the internal data management system . Limit the risk of data problems being attacked, the cost of buying anti-malware licesen",
+          title39: "Mr. Nguyễn Tiến Thành ",
+          title40: "IT Manager, InfoPlus",
+
+
         }
       },
       vn: {
@@ -96,7 +104,7 @@ i18n
           toptitle:"Nền tảng điện toán đám mây đủ tiêu chuẩn toàn cầu với liên kết cục bộ dành cho mọi doanh nghiệp tại Việt Nam",
 
 
-          title3: "năm kinh nghiệm về nghiên cứu và phát triển dịch vụ đám mây trên toàn cầu",
+          title3: "năm kinh nghiệm về nghiên cứu và phát triển dịch vụ đám mây trên toàn cầu với hơn 20.000 máy chủ, hơn 100.000 máy ảo, hơn 500 bộ lưu trữ PB và 9 quốc gia",
           title4: "Các chuyên gia có kinh nghiệm hỗ trợ doanh nghiệp mọi thời điểm",
           title5: "trung tâm dữ liệu FPT Telecom đạt tiêu chuẩn ISO về thiết kế, xây dựng và vận hành theo tiêu chuẩn toàn cầu",
           title6: "doanh nghiệp trong nhiều lĩnh vực sử dụng HI GIO Clound (Tài chính, TMDT, Bán lẻ)",
@@ -138,6 +146,16 @@ i18n
 
           title33: "- Information Technology Department, Việt Á Bank",
           title34: "Tổng Giám đốc Family Mart Việt Nam",
+
+
+
+          title35: "HI GIO Cloud không chỉ cung cấp hệ thống đáng tin cậy mà còn đảm bảo sự hỗ trợ kỹ thuật liên tục 24/7 cho toàn bộ hạ tầng CNTT của TOKYOLIFE như hệ thống core thanh toán bán hàng cho toàn bộ chuỗi (App -DB); hệ thống web thương mại điện tử; hệ thống tài chính kế toán. Với việc quản trị đơn giản thông qua Webportal, việc sử dụng HI GIO Cloud trở nên dễ dàng và thuận tiện. Đáng chú ý, HI GIO là một thương hiệu lớn được biết đến với uy tín và độ tin cậy cao trong ngành công nghệ thông tin. Với sự đảm bảo bởi FPT, một công ty công nghệ hàng đầu, người dùng có thể hoàn toàn yên tâm về mặt bảo mật thông tin và độ tin cậy của dịch vụ",
+          title36: "Ông. Nguyễn Mạnh Cường ",
+          title37: "CTO, ForLife Vietnam",
+
+          title38: "Đảm bảo tối ưu chi phí, thời gian triển khai hệ thống linh hoạt hơn, tránh rủi ro mất dữ liệu, đảm bảo đc tính liên tục không bị downtime khi sử dụng hạ tầng HI GIO Cloud trên hệ thống quản trị dữ liệu nội bộ. Hạn chế được rủi ro sự cố dữ liệu bị tấn công, chi phí mua licesen chống mã độc",
+          title39: "Ông. Nguyễn Tiến Thành ",
+          title40: "IT Manager, InfoPlus",
         }
       },
       
